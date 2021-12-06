@@ -1,8 +1,9 @@
 // Add real time texturing using Canvas 2D context
+//Built off of Ira GreenBergs Painted Cube 2 
 
 import { AmbientLight, BoxGeometry, CanvasTexture, ClampToEdgeWrapping, Color, DirectionalLight, Mesh, MeshPhongMaterial, PCFSoftShadowMap, PerspectiveCamera, PlaneGeometry, Scene, SphereGeometry, SpotLight, Vector2, Vector3, WebGLRenderer } from 'three'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
-import { randRange } from '../NandCUtils'
+
 
 // Get 2D canvas context. By default this type is null.
 const ctx = document.createElement('canvas').getContext('2d');
